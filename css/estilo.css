@@ -126,6 +126,7 @@ img,
 .secao {
 	height: 100vh;
 	position: relative;
+	margin-bottom: 10px;
 }
 
 .nomeRobotica {

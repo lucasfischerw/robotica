@@ -7,7 +7,7 @@ if(isIOS) {
     window.alert("if (mac) { destruir(); }")
     document.body.style.display = "none"
 }
-
+//Testando o github
 function openNav() {
     if (!aberto) {
         document.getElementById("menu").style.top = "-70px"
