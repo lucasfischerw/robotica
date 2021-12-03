@@ -160,10 +160,10 @@ img,
 
 .textoProjeto,
 .imgProjeto {
-	width: 45%;
+	width: 40%;
 	height: auto;
-	margin: 0 5%;
-	padding: 40px;
+	margin: 0;
+	padding: 30px;
 }
 
 .imgProjeto {
