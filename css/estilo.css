@@ -164,6 +164,7 @@ img,
 	height: auto;
 	margin: 0;
 	padding: 30px;
+	position: relative;
 }
 
 .imgProjeto {
