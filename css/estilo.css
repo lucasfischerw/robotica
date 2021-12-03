@@ -160,8 +160,8 @@ img,
 
 .textoProjeto,
 .imgProjeto {
-	width: 45%;
-	height: 350px;
+	width: 40%;
+	height: auto;
 	margin: 0 5%;
 	padding: 30px;
 	position: relative;
