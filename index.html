@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="conteudo" id="conteudo" onclick="closeNav()"> <!--Conteudo-->
-            <div class="secao" data-aos="fade-right" data-aos-anchor-placement="center-right"> <!--Primeira parte do site-->
+            <div id="Robotica" class="secao" data-aos="fade-right"> <!--Primeira parte do site-->
                 <img class="rato" id="rato" src="img/RATO_PNG_small.png">
                 <img class="nomeRobotica" id="nomeRobotica" src="img/logo_robotica_branco.png">
             </div>
@@ -113,6 +113,7 @@
             window.onscroll = function(event)
             {
                 AOS.init();
+                document.getElementById("Robotica").style.marginRight.length = 300;
             }
         </script>
     </body>
