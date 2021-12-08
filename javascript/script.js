@@ -1,13 +1,13 @@
 var aberto;
-let isIOS = /iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel');
+//let isIOS = /iPad|iPhone|iPod/.test(navigator.platform) || (navigator.platform === 'MacIntel');
 
-if(isIOS) {
-    window.alert("Você tem 2 segundos para sair do site")
-    window.alert("Vírus instalando...")
-    window.alert("if (mac) { destruir(); }")
-    document.body.style.display = "none"
-}
-//Testando o github
+//if(isIOS) {
+//    window.alert("Você tem 2 segundos para sair do site")
+//    window.alert("Vírus instalando...")
+//    window.alert("if (mac) { destruir(); }")
+//   document.body.style.display = "none"
+//}
+
 function openNav() {
     if (!aberto) {
         document.getElementById("menu").style.top = "-70px"

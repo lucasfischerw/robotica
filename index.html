@@ -48,8 +48,8 @@
             </div>
         </div>
         <div class="conteudo" id="conteudo" onclick="closeNav()"> <!--Conteudo-->
-            <div class="secao"> <!--Primeira parte do site-->
-                <img class="rato" id="rato" src="img/RATO_PNG_small.png" data-aos="fade-right">
+            <div class="secao" data-aos="fade-right"> <!--Primeira parte do site-->
+                <img class="rato" id="rato" src="img/RATO_PNG_small.png">
                 <img class="nomeRobotica" id="nomeRobotica" src="img/logo_robotica_branco.png">
             </div>
             <div class="secao"> <!--Video da Robótica-->
@@ -105,6 +105,12 @@
         </div>
         <script src="javascript/script.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>AOS.init();</script>
+        <script>
+            window.onscroll = function(event)
+            {
+                AOS.init();
+            };
+            
+        </script>
     </body>
 </html>
